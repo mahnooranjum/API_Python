@@ -9,3 +9,7 @@ async def root():
 
 
 
+
+@app.get("/posts")
+def get_posts():
+    return {"data": "here is your data"}
